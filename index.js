@@ -168,6 +168,7 @@ const getGeolocation = async () => {
 
 
 
+const apiRoute = `https://api.d2f.co.in/api/`
 
 const generateEnquiry = async (event) => {
     event.preventDefault();
@@ -223,7 +224,7 @@ const generateEnquiry = async (event) => {
         };
 
         try {
-            const response = await fetch("https://development-api.d2f.co.in/api/save-service-inquiry", requestOptions);
+            const response = await fetch(`${apiRoute}save-service-inquiry`, requestOptions);
 
             if (!response.ok) {
                 throw new Error(`HTTP error! Status: ${response.status}`);
