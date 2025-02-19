@@ -69,7 +69,7 @@ const form = `<div class="inputBox animate__animated animate__fadeInUp">
                             <path d="M13.2574 17.4936C12.9201 17.8184 12.4693 18 12.0002 18C11.531 18 11.0802 17.8184 10.7429 17.4936C7.6543 14.5008 3.51519 11.1575 5.53371 6.30373C6.6251 3.67932 9.24494 2 12.0002 2C14.7554 2 17.3752 3.67933 18.4666 6.30373C20.4826 11.1514 16.3536 14.5111 13.2574 17.4936Z" stroke="currentColor" stroke-width="1.5"></path>
                         </svg>
 
-                        ${language == 'hi' ? `<input class="hi" type="text" id="address" name="address"  placeholder="आपका पता" />` : language == 'pa' ? `<input class="pa" type="text" id="address" name="address"  placeholder="ਤੁਹਾਡਾ ਪਤਾ" />` : `<input class="en" type="text" id="address" name="address"  placeholder="Landmark" />`}
+                        ${language == 'hi' ? `<input class="hi" type="text" id="address" name="address"  placeholder="आपका पता" />` : language == 'pa' ? `<input class="pa" type="text" id="address" name="address"  placeholder="ਤੁਹਾਡਾ ਪਤਾ" />` : `<input class="en" type="text" id="address" name="address"  placeholder="Address" />`}
 
                     </div>
 
@@ -80,7 +80,7 @@ const form = `<div class="inputBox animate__animated animate__fadeInUp">
 
                 <div class="consentBlock animate__animated animate__fadeInUp">
                     <input type="checkbox" name="consent" id="consent" checked />
-                    ${language == 'hi' ? `<label for="consent" class="hi">सहमति देकर, आप हमारी <a href="#">शर्तों और नीतियों</a> को स्वीकार करते हैं। </label>` : language == 'pa' ? `<label for="consent" class="pa">ਸਹਿਮਤੀ ਦੇ ਕੇ, ਤੁਸੀਂ ਸਾਡੀਆਂ <a href="#">ਸ਼ਰਤਾਂ ਅਤੇ ਨੀਤੀਆਂ</a> ਨੂੰ ਸਵੀਕਾਰ ਕਰਦੇ ਹੋ।</label>` : `<label for="consent" class="en">By agreeing, you accept our <a href="#">Terms and Policies</a>.</label>`}
+                    ${language == 'hi' ? `<label for="consent" class="hi">सहमति देकर, आप हमारी <a href="https://agriwings.in/terms-conditions" target="_blank">शर्तों और नीतियों</a> को स्वीकार करते हैं। </label>` : language == 'pa' ? `<label for="consent" class="pa">ਸਹਿਮਤੀ ਦੇ ਕੇ, ਤੁਸੀਂ ਸਾਡੀਆਂ <a href="https://agriwings.in/terms-conditions" target="_blank">ਸ਼ਰਤਾਂ ਅਤੇ ਨੀਤੀਆਂ</a> ਨੂੰ ਸਵੀਕਾਰ ਕਰਦੇ ਹੋ।</label>` : `<label for="consent" class="en">By agreeing, you accept our <a href="https://agriwings.in/terms-conditions" target="_blank">Terms and Policies</a>.</label>`}
                 </div>
 
 
